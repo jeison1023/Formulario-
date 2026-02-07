@@ -1,0 +1,74 @@
+/* Configuración general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Contenedores de cada campo */
+.campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para etiquetas */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Estilo para inputs, select y textarea */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo especial para radio y checkbox (para que salgan en línea) */
+.opciones-linea {
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
